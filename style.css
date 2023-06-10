@@ -4,5 +4,135 @@
 }
 
 body {
-    background-color: black;
+    height: 100%;
+    width: 100%;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    background-color: #E3E6E6;
+}
+
+header {
+    background-color: #131921;
+    
+}
+
+.logo {
+    margin: 15px;
+    width: 150px;
+    cursor: pointer;
+    padding-left: 15px;
+}
+
+nav  {
+    background-color: #232F3E;
+    color:white;
+}
+
+nav ul {
+    display: flex;
+    padding: 5px;
+    list-style-type: none;
+}
+
+nav li {
+    padding-left: 15px;
+    margin:10px;
+}
+
+.title {
+    display: block;
+    background-color: orange;
+    text-align:center;
+    margin:30px;
+    padding:10px;
+    color: white;
+}
+
+.bgimage {
+    background-image: url(img/bg-image.png);
+    margin:30px;
+    padding:60px;
+    text-align: center;
+    color:white;
+}
+
+.sub {
+    padding-top:50px;
+}
+
+.contenitore {
+    background-color: white;
+    margin: 30px 30px;
+    
+    
+}
+
+.image-container {
+    border-radius: 50px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 30px;
+}
+    
+
+
+.image-container img {
+    height: 400px;
+    width: 300px;
+    border-radius: 20px; 
+    box-shadow: 6px 6px 19px 4px rgba(0,0,0,0.8);
+}
+
+.gift {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.gift a{
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+.second-image-container{
+    margin: 30px;
+}
+.second-image-container img{
+   
+    max-width: 100%;
+    height: 400px;
+    
+}
+
+.second-image-container p {
+    text-align: center;
+    
+}
+
+.second-image-container a {
+    padding-left: 15px;
+}
+
+.first-img img {
+
+}
+
+.back-to-top a{
+    background-color: #232F3E;
+    color:white;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+}
+
+.footer-logo {
+    background-color: #131921;
+    text-align: center;
+}
+
+.footer-logo img {
+    width: 150px;
+    padding: 30px 30px;
 }
