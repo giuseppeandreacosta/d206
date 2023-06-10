@@ -75,7 +75,10 @@ nav li {
     padding: 30px;
 }
     
-
+.extra-section img{
+    width: 1500px;
+    margin: 30px 30px;
+}
 
 .image-container img {
     height: 400px;
@@ -99,7 +102,7 @@ nav li {
 }
 .second-image-container img{
    
-    max-width: 100%;
+    width: 1500px;
     height: 400px;
     
 }
@@ -121,7 +124,6 @@ nav li {
     background-color: #232F3E;
     color:white;
     text-align: center;
-    margin: 20px;
     padding: 20px;
     display: block;
     text-decoration: none;
