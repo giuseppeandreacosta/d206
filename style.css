@@ -6,7 +6,7 @@
 body {
     height: 100%;
     width: 100%;
-    font-family: "Amazon Ember", Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #E3E6E6;
 }
 
@@ -78,27 +78,28 @@ nav li {
     
 
 .extra-section {
-    
+    position: relative;
     margin: 30px 30px;
    
 }
 
 .extra {
     width: 1500px;
-   
+   position: relative;
     z-index: -1;
 }
 
 .extra1 {
     width: 50px;
     position: relative;
-    top: 80px;
-    left: 150px;}
+    top: -300px;
+    left: 150px;
+}
 
 .extra2 {
     width: 50px;
     position: relative;
-    top:250px;
+    top:-250px;
     left:150px;
 }
 
@@ -159,7 +160,4 @@ width: 1500px;
 .footer-logo img {
     width: 150px;
     padding: 30px 30px;
-}
-.hide{
-    display:none;
 }
