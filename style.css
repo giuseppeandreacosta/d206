@@ -76,9 +76,30 @@ nav li {
     padding: 30px;
 }
     
-.extra-section img{
-    width: 1500px;
+
+.extra-section {
+    
     margin: 30px 30px;
+   
+}
+
+.extra {
+    width: 1500px;
+   
+    z-index: -1;
+}
+
+.extra1 {
+    width: 50px;
+    position: relative;
+    top: 80px;
+    left: 150px;}
+
+.extra2 {
+    width: 50px;
+    position: relative;
+    top:250px;
+    left:150px;
 }
 
 .image-container img {
@@ -117,8 +138,8 @@ nav li {
     padding-left: 15px;
 }
 
-.first-img img {
-
+.first-image img {
+width: 1500px;
 }
 
 .back-to-top a{
@@ -138,4 +159,7 @@ nav li {
 .footer-logo img {
     width: 150px;
     padding: 30px 30px;
+}
+.hide{
+    display:none;
 }
