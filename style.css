@@ -8,11 +8,12 @@ body {
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #E3E6E6;
+    font-weight: 600;
 }
 
 header {
     background-color: #131921;
-    
+
 }
 
 .logo {
@@ -22,9 +23,9 @@ header {
     padding-left: 15px;
 }
 
-nav  {
+nav {
     background-color: #232F3E;
-    color:white;
+    color: white;
 }
 
 nav ul {
@@ -36,120 +37,132 @@ nav ul {
 
 nav li {
     padding-left: 15px;
-    margin:10px;
+    margin: 10px;
+}
+
+nav ul li:hover {
+    color:rgb(12, 126, 231);
 }
 
 .title {
     display: block;
     background-color: orange;
-    text-align:center;
-    margin:30px;
-    padding:10px;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
     color: white;
 }
 
 .bgimage {
     background-image: url(img/bg-image.png);
-    margin:30px;
-    padding:60px;
+    margin: 30px;
+    padding: 60px;
     text-align: center;
-    color:white;
+    color: white;
 }
 
 .sub {
-    padding-top:50px;
+    padding-top: 50px;
 }
 
 .contenitore {
     background-color: white;
     margin: 30px 30px;
-    
-    
 }
 
 .image-container {
     border-radius: 50px;
     margin: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-content: center;
-    padding: 30px;
+    padding: 20px;
 }
-    
+
+.image-container img {
+    margin-top: -30px;
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+   
+}
+
+.gift {
+    margin-top: -20px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.gift a {
+    padding-left: 15px;
+    text-decoration: none;
+    color:rgb(12, 126, 231);
+}
 
 .extra-section {
     position: relative;
     margin: 30px 30px;
-   
+
 }
 
 .extra {
-    width: 1500px;
-   position: relative;
-    z-index: -1;
+    width: 1840px;
+    position: relative;
+
 }
 
 .extra1 {
     width: 50px;
     position: relative;
-    top: -300px;
-    left: 150px;
+    top: -380px;
+    left: 400px;
 }
 
 .extra2 {
     width: 50px;
     position: relative;
-    top:-250px;
-    left:150px;
+    top: -200px;
+    left: 140px;
 }
 
-.image-container img {
-    height: 400px;
-    width: 300px;
-    border-radius: 20px; 
-    box-shadow: 6px 6px 19px 4px rgba(0,0,0,0.8);
-}
-
-.gift {
-    padding-top: 15px;
-    padding-left: 15px;
-}
-
-.gift a{
-    padding-left: 15px;
-    text-decoration: none;
-}
-
-.second-image-container{
+.second-image-container {
     margin: 30px;
 }
-.second-image-container img{
-   
-    width: 1500px;
+
+.second-image-container img {
+    width: 1840px;
     height: 400px;
-    
+
 }
 
 .second-image-container p {
     text-align: center;
-    
+
 }
 
 .second-image-container a {
     padding-left: 15px;
+    text-decoration: none;
+    color:rgb(12, 126, 231);
 }
 
-.first-image img {
-width: 1500px;
+.first {
+    margin-top: -25px;
+    margin-bottom: 25px;
 }
 
-.back-to-top a{
+
+.back-to-top a {
     background-color: #232F3E;
-    color:white;
+    color: white;
     text-align: center;
     padding: 20px;
     display: block;
     text-decoration: none;
+}
+
+.back-to-top a:hover {
+    color:rgb(12, 126, 231);
 }
 
 .footer-logo {
